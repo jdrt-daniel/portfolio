@@ -15,11 +15,11 @@ export const ExperienceItems = (experience: ExperienceItemProps) => {
   return (
     <div className="flex items-start gap-4 border-b pb-4">
       <Image
-        src={"https://avatars.githubusercontent.com/u/10197331?v=4"}
+        src={experience.image}
         alt="Atomic Finance"
         width={8}
         height={8}
-        className="h-12 w-12 rounded-full object-contain"
+        className="h-12 w-12 rounded-full object-contain bg-white"
       />
       <div className="flex-1">
         <div className="flex justify-between items-start">
@@ -29,7 +29,7 @@ export const ExperienceItems = (experience: ExperienceItemProps) => {
               {experience.description}
             </p>
           </div>
-          <span className="text-muted-foreground text-right text-xs">
+          <span className="text-muted-foreground text-right text-xs  hidden md:block">
             {experience.location}
           </span>
           <span className="text-muted-foreground text-right text-xs">

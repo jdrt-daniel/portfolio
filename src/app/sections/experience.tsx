@@ -9,8 +9,7 @@ export const Experience = () => {
       initialDate: "Jan 2018",
       endDate: "Sep 2018",
       location: "Bolivia - Tarija",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/littlehand_1.webp",
       technologies: ["Boostrap", "Laravel", "Vuejs", "PostgreSQL"],
     },
     {
@@ -20,8 +19,7 @@ export const Experience = () => {
       initialDate: "Apr 2019",
       endDate: "Ago 2019",
       location: "Bolivia - Tarija",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/dibaldi_1.webp",
       technologies: ["Mysql", "Laravel", "Vuejs"],
     },
     {
@@ -31,19 +29,17 @@ export const Experience = () => {
       initialDate: "Apr 2021",
       endDate: "Sep 2021",
       location: "Bolivia - Tarija",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/lepetit.webp",
       technologies: ["Mysql", "Laravel", "Vuejs", "TailwindCSS"],
     },
     {
       id: 4,
-      name: "Wellnes Gym & Fitness",
+      name: "Wellness Gym & Fitness",
       description: "Fullstack Developer",
       initialDate: "Ago 2021",
       endDate: "Dic 2021",
       location: "Bolivia - Remote",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/wellness.webp",
       technologies: ["Reactjs", "SpringBoot", "TailwindCSS"],
     },
     {
@@ -53,8 +49,7 @@ export const Experience = () => {
       initialDate: "Feb 2022",
       endDate: "Mar 2023",
       location: "Bolivia - La paz",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/hansa_automotive.webp",
       technologies: [
         "Microservice",
         "RabbitMQ",
@@ -74,8 +69,7 @@ export const Experience = () => {
       initialDate: "Apr 2023",
       endDate: "May 2024",
       location: "Bolivia - La paz",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/hansa_p_s.webp",
       technologies: [
         "Microservice",
         "Scrum",
@@ -86,26 +80,25 @@ export const Experience = () => {
         "Nestjs",
       ],
     },
-    {
-      id: 7,
-      name: "Freelance",
-      description: "Fullstack Developer",
-      initialDate: "Oct 2024",
-      endDate: "Dec 2024",
-      location: "Bolivia - Remote",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      technologies: [
-        "Microservice",
-        "Nestjs",
-        "Python",
-        "Docker",
-        "Nextjs",
-        "Reactjs",
-        "TailwindCSS",
-        "Typescript",
-      ],
-    },
+    // {
+    //   id: 7,
+    //   name: "Freelance",
+    //   description: "Fullstack Developer",
+    //   initialDate: "Oct 2024",
+    //   endDate: "Dec 2024",
+    //   location: "Bolivia - Remote",
+    //   image: "/logos/OPS.webp",
+    //   technologies: [
+    //     "Microservice",
+    //     "Nestjs",
+    //     "Python",
+    //     "Docker",
+    //     "Nextjs",
+    //     "Reactjs",
+    //     "TailwindCSS",
+    //     "Typescript",
+    //   ],
+    // },
     {
       id: 8,
       name: "OPS (Panamerican Organization of Health)",
@@ -113,8 +106,7 @@ export const Experience = () => {
       initialDate: "Apr 2024",
       endDate: "Feb 2025",
       location: "Bolivia - Remote",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: "/logos/ops.webp",
       technologies: [
         "Microservice",
         "Scrum",

@@ -23,7 +23,7 @@ export const Presentations = () => {
           color="primary"
           size="lg"
           weight="normal"
-          className="animate-fade-left animate-once mb-5 lg:text-5xl"
+          className="animate-fade-left animate-once mb-5 lg:text-5xl text-center lg:text-left"
         >
           Full-Stack Developer
         </Typography>
@@ -33,12 +33,12 @@ export const Presentations = () => {
           color="primary"
           size="lg"
           weight="normal"
-          className="flex-col animate-fade-left animate-once text-normal"
+          className="flex-col animate-fade-left animate-once text-normal  text-center lg:text-left"
         >
           I&rsquo;m Daniel, a Full-Stack Developer with over 3 years of
           experience
         </Typography>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 justify-center lg:justify-start">
           <Button>Get in touch</Button>
           <Button className="bg-emerald-800 hover:bg-emerald-700 dark:text-white">
             Download CV
