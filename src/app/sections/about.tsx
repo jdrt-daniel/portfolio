@@ -2,17 +2,16 @@ export const About = () => {
   return (
     <div className="">
       <h5 className="text-2xl font-bold text-left">About</h5>
-      <p className="mt-1 text-sm text-justify dark:text-white/80">
-        Soy un programador fullstack con una sólida experiencia en el desarrollo
-        de aplicaciones web y móviles. He trabajado con una variedad de
-        tecnologías, incluyendo JavaScript, TypeScript, y frameworks como React
-        y Next.js, lo que me permite construir interfaces de usuario
-        interactivas y eficientes. Además, tengo experiencia en el desarrollo
-        del lado del servidor utilizando Node.js y Express, así como en la
-        gestión de bases de datos con MongoDB y PostgreSQL. <br /> Mi enfoque en
-        la calidad del código y las mejores prácticas de desarrollo me ha
-        permitido contribuir a proyectos exitosos y colaborar eficazmente en
-        equipos multidisciplinarios.
+      <p className="mt-1 dark:text-white/80">
+        I am a Full-Stack Developer with over 5 years of experience in designing
+        and developing web applications. I specialize in building scalable,
+        efficient, and user-friendly solutions, always focusing on clean code
+        and best development practices. <br />
+        With a strong problem-solving mindset and a passion for continuous
+        learning, I enjoy collaborating with multidisciplinary teams to create
+        innovative and high-impact projects. My experience spans both frontend
+        and backend development, ensuring seamless and well-integrated
+        applications.
       </p>
     </div>
   );

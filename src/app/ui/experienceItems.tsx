@@ -4,8 +4,11 @@ import React from "react";
 interface ExperienceItemProps {
   name: string;
   description: string;
-  url: string;
   image: string;
+  initialDate?: string;
+  endDate?: string;
+  location: string;
+  technologies: string[];
 }
 
 export const ExperienceItems = (experience: ExperienceItemProps) => {
@@ -27,10 +30,23 @@ export const ExperienceItems = (experience: ExperienceItemProps) => {
             </p>
           </div>
           <span className="text-muted-foreground text-right text-xs">
-            May 2021 - Oct 2022
+            {experience.location}
+          </span>
+          <span className="text-muted-foreground text-right text-xs">
+            {experience.initialDate} - {experience.endDate}
           </span>
         </div>
       </div>
+      {/* <div className="flex gap-2 mt-2">
+        {experience.technologies.map((technology) => (
+          <div
+            key={technology}
+            className="rounded-full bg-primary-500 px-2 py-1 text-xs text-white"
+          >
+            {technology}
+          </div>
+        ))}
+      </div> */}
     </div>
   );
 };

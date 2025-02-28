@@ -38,10 +38,10 @@ export const Presentations = () => {
         flex-col
         animate-fade-left animate-once"
         >
-          I&rsquo;m Daniel a software engineer with a passion for creating
-          innovative and user-friendly applications. I am a self-taught
-          developer with a strong background in computer science and
-          programming.
+          I&rsquo;m a Full-Stack Software Engineer passionate about building
+          innovative, scalable, and user-friendly applications. With a strong
+          background in computer science and a self-taught mindset, I thrive on
+          solving complex problems and continuously learning new technologies.
         </Typography>
       </div>
     </div>
