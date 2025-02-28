@@ -12,7 +12,7 @@ export default function Home() {
     <div className="h-screen relative">
       <Element
         name="home"
-        className="lg:py-10 w-full lg:w-[60%] xl:w-[50%] mx-auto p-6"
+        className="lg:py-10 w-full lg:w-[60%] xl:w-[50%] mx-auto p-6 h-full"
       >
         <Presentations />
       </Element>

@@ -1,4 +1,5 @@
 import { Typography } from "@/components";
+import { Button } from "@/components/ui/button";
 import { useMediaQueries } from "@/lib/useMediaQuery";
 import Image from "next/image";
 
@@ -6,13 +7,13 @@ export const Presentations = () => {
   const { sm, xs } = useMediaQueries();
 
   return (
-    <div className="h-full md:flex lg:flex mt:mt-10 sm:mt-10">
-      <div className="flex items-center mt-10 justify-center">
+    <div className="h-full md:flex lg:flex mt:mt-10 sm:mt-10 items-center">
+      <div className="flex items-center justify-center">
         <Image
           src="https://avatars.githubusercontent.com/u/10197331?v=4"
           alt="Daniel"
-          width={sm || xs ? 150 : 300}
-          height={sm || xs ? 150 : 300}
+          width={sm || xs ? 150 : 200}
+          height={sm || xs ? 150 : 200}
           className="rounded-full"
         />
       </div>
@@ -22,27 +23,27 @@ export const Presentations = () => {
           color="primary"
           size="lg"
           weight="normal"
-          className="
-        
-        animate-fade-left animate-once mb-5"
+          className="animate-fade-left animate-once mb-5 text-9xl"
         >
-          Hi, I&rsquo;m Daniel
+          Full-Stack Developer
         </Typography>
 
         <Typography
-          variant="p"
+          variant="h4"
           color="primary"
-          size="md"
+          size="lg"
           weight="normal"
-          className="
-        flex-col
-        animate-fade-left animate-once"
+          className="flex-col animate-fade-left animate-once"
         >
-          I&rsquo;m a Full-Stack Software Engineer passionate about building
-          innovative, scalable, and user-friendly applications. With a strong
-          background in computer science and a self-taught mindset, I thrive on
-          solving complex problems and continuously learning new technologies.
+          I&rsquo;m Daniel, a Full-Stack Developer with over 3 years of
+          experience
         </Typography>
+        <div className="flex gap-2 mt-4">
+          <Button>Get in touch</Button>
+          <Button className="bg-emerald-800 hover:bg-emerald-700 dark:text-white">
+            Download CV
+          </Button>
+        </div>
       </div>
     </div>
   );
