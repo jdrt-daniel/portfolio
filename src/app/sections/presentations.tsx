@@ -7,8 +7,8 @@ export const Presentations = () => {
   const { sm, xs } = useMediaQueries();
 
   return (
-    <div className="h-full md:flex lg:flex mt:mt-10 sm:mt-10 items-center">
-      <div className="flex items-center justify-center">
+    <div className="h-full md:flex lg:flex mt:mt-10 sm:mt-10">
+      <div className="flex items-center mt-10 justify-center">
         <Image
           src="https://avatars.githubusercontent.com/u/10197331?v=4"
           alt="Daniel"
@@ -23,7 +23,7 @@ export const Presentations = () => {
           color="primary"
           size="lg"
           weight="normal"
-          className="animate-fade-left animate-once mb-5 text-9xl"
+          className="animate-fade-left animate-once mb-5 lg:text-5xl"
         >
           Full-Stack Developer
         </Typography>
@@ -33,7 +33,7 @@ export const Presentations = () => {
           color="primary"
           size="lg"
           weight="normal"
-          className="flex-col animate-fade-left animate-once"
+          className="flex-col animate-fade-left animate-once text-normal"
         >
           I&rsquo;m Daniel, a Full-Stack Developer with over 3 years of
           experience
